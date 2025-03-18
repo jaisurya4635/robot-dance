@@ -1,0 +1,132 @@
+body{
+    background-color: rgb(13, 13, 14);
+}
+.emoji-face{
+    width: 500px;
+    height: 500px;
+    background-color: yellow;
+    border-radius: 50%;
+    position: relative;
+    margin: 50px auto;
+
+}
+
+.eye1{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: rgb(16, 16, 225);
+    top: 150px;
+    left: 100px;
+}
+.eye2{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: rgb(28, 28, 245);
+    top: 150px;
+    right: 100px;
+}
+
+.mouth{
+    position: absolute;
+    height: 90px;
+    width: 150px;
+    background-color: orangered;
+border-radius:0 0  100% 100%;  
+top: 300px; 
+left: 180px;
+
+}
+
+.toungue{
+    position: absolute ;
+    height: 90px;
+    width: 100px;
+    background-color: rgb(234, 28, 155);
+border-radius: 0 0  50% 50%;  
+top: 30px; 
+left: 25px;
+}
+.emoji-face1{
+    width: 500px;
+    height: 500px;
+    background-color: yellow;
+    border-radius: 50%;
+    position: relative;
+    top: 100px;
+    margin: 50px auto;
+
+}
+
+.eye3{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: rgb(16, 16, 225);
+    top: 150px;
+    left: 100px;
+}
+.eye4{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: rgb(28, 28, 245);
+    top: 150px;
+    right: 100px;
+}
+
+.mouth1{
+    position: absolute;
+    height: 100px;
+    width: 150px;
+    background-color: orangered;
+border-radius:100% 100%;  
+top: 280px; 
+left: 180px;
+
+}
+.emoji-face2{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(238, 231, 18);
+    border-radius: 50%;
+    position: relative;
+    top: 100px;
+    margin: 50px auto;
+
+}
+
+.eye5{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: rgb(13, 13, 41);
+    top: 150px;
+    left: 100px;
+}
+.eye6{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: rgb(5, 5, 16);
+    top: 150px;
+    right: 100px;
+}
+
+.mouth2 {
+    position: absolute;
+    bottom: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150px;
+    height: 15px;
+    background-color: black;
+    border-radius: 0 75px 0 45px; /* Creates a smile effect */
+}
